@@ -16,7 +16,22 @@
     margin-right: auto;
     width: 50%;
 }
-
+/*Button Color
+**Add size**/
 .button-return {
     background-color: lightgreen;
+}
+
+/* Box CSS*/
+* {
+    border: 2px solid black;
+    padding: 4px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.boxtest {
+    background-color: lightsalmon;
+    padding: 10px;
+    margin: 5px;
 }
