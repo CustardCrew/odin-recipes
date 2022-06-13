@@ -22,7 +22,7 @@
     background-color: lightgreen;
 }
 
-/* Box CSS*/
+/* Box CSS
 * {
     border: 2px solid black;
     padding: 4px;
@@ -34,4 +34,34 @@
     background-color: lightsalmon;
     padding: 10px;
     margin: 5px;
+}
+*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.flex-container div {
+    background: paleturquoise;
+    border: 4px solid blueviolet;
+    height: 150px;
+    flex: 1 1 auto;
+    padding: 10px 5px 10px 5px;
+    margin: auto;
+}
+
+.flex-ex {
+    display: flex;
+    flex-direction: row;
+}
+.flex-ex ul {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: auto;
+    width: 300px;
+    flex: 1;
+    padding: 10px 5px 10px 5px;
+    margin: auto;
 }
